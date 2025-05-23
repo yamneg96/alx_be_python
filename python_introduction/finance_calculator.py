@@ -6,6 +6,7 @@ savings = income - expenses
 
 print("Your monthly savings are $"+str(int(savings))+".")
 
-projected_savings = (savings * 12) + (savings * 12 * 0.05)
+monthly_saving = savings * 12
+projected_savings = monthly_saving + monthly_saving * 0.05
 
 print("Projected savings after one year, with interest, is: $"+str(int(projected_savings))+".")
