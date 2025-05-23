@@ -1,5 +1,4 @@
-print("How old are you?")
-age = input()
+age = input("How old are you? ")
 
 new_age = int(age) + 27
 
