@@ -1,5 +1,5 @@
 print("How old are you?")
-age = int(input())
+age = input()
 
 new_age = age + 27
 
